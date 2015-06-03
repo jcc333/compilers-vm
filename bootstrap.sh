@@ -1,4 +1,4 @@
-sudo apt-get install -y flex bison build-essential csh openjdk-6-jdk libxaw7-dev
+sudo yum install -y flex bison make automake gcc gcc-c++ kernel-devel csh java-1.8.0-openjdk.x86_64 vim tar 
 sudo mkdir /usr/class
 sudo chown vagrant /usr/class
 cd /usr/class
